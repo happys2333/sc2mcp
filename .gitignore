@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.js.map
+*.d.ts
+.env
+.env.local
+*.sc2map
+*.sc2mod
+*.sc2archive
+.DS_Store
+Thumbs.db
+test-output/
+sc2-workbench.json
+sc2-project.json
+.backups/

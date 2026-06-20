@@ -1,0 +1,39 @@
+{
+  "name": "sc2mcp",
+  "version": "0.1.0",
+  "description": "MCP Server for StarCraft II Galaxy Editor - AI-powered map/mod development assistant",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "sc2mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "inspect": "npx @modelcontextprotocol/inspector node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "starcraft",
+    "starcraft2",
+    "galaxy-editor",
+    "galaxy-script",
+    "sc2",
+    "map-editor",
+    "ai-agent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "jszip": "^3.10.1",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

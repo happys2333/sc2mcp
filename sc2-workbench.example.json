@@ -1,0 +1,23 @@
+{
+  "sc2": {
+    "installPath": "C:\\Program Files (x86)\\StarCraft II",
+    "switcherPath": "C:\\Program Files (x86)\\StarCraft II\\Support64\\SC2Switcher_x64.exe",
+    "editorPath": "C:\\Program Files (x86)\\StarCraft II\\Support64\\SC2Editor_x64.exe",
+    "region": "US",
+    "language": "enUS"
+  },
+  "workspace": {
+    "projectsRoot": "D:\\SC2Projects",
+    "backupRoot": "D:\\SC2Projects\\.backups",
+    "reportsRoot": "D:\\SC2Projects\\.reports"
+  },
+  "tools": {
+    "ffmpeg": "C:\\tools\\ffmpeg\\bin\\ffmpeg.exe",
+    "imageMagick": "C:\\tools\\ImageMagick\\magick.exe"
+  },
+  "security": {
+    "requireConfirmForRun": true,
+    "requireConfirmForOverwrite": true,
+    "disablePublishAutomation": true
+  }
+}

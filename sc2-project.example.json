@@ -1,0 +1,21 @@
+{
+  "projectId": "example_mod",
+  "projectType": "mod",
+  "projectPath": "D:\\SC2Projects\\ExampleMod.SC2Mod.SC2Components",
+  "locales": ["enUS", "zhCN"],
+  "mainLocale": "enUS",
+  "dependencies": [
+    "Liberty.SC2Mod",
+    "Swarm.SC2Mod",
+    "Void.SC2Mod"
+  ],
+  "templates": {
+    "faction": "basic_faction",
+    "unitStyle": "standard"
+  },
+  "test": {
+    "testMapPath": "D:\\SC2Projects\\TestMap.SC2Map.SC2Components",
+    "defaultRunMode": "windowed",
+    "triggerDebug": true
+  }
+}
