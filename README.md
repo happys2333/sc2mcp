@@ -1,5 +1,7 @@
 # SC2 AI Workbench + MCP
 
+English | [中文](README_CN.md)
+
 MCP Server for StarCraft II AI-powered Mod/Map development - SC2 AI Workbench.
 
 ## Overview

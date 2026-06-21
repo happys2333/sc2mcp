@@ -1,6 +1,6 @@
 # SC2 AI Workbench 使用指南
 
-English | [中文](USAGE_GUIDE_CN.md)
+[English](USAGE_GUIDE.md) | 中文
 
 ## 快速开始
 
@@ -59,7 +59,7 @@ npm run build
   "sc2": {
     "installPath": "C:\\Program Files (x86)\\StarCraft II",
     "region": "US",
-    "language": "enUS"
+    "language": "zhCN"
   }
 }
 ```
@@ -181,8 +181,8 @@ npm run build
 {
   "projectPath": "D:\\SC2Projects\\MyMod.SC2Mod.SC2Components",
   "id": "MechanicalSwarm",
-  "displayName": "Mechanical Swarm",
-  "theme": "bio-mechanical zerg-like machines",
+  "displayName": "机械虫群",
+  "theme": "生化机械虫族",
   "race": "Zerg"
 }
 ```
@@ -198,8 +198,8 @@ npm run build
 **map.generate_blueprint 参数：**
 ```json
 {
-  "mapName": "Two Rivers",
-  "theme": "jungle",
+  "mapName": "双河冲突",
+  "theme": "丛林",
   "players": 2,
   "width": 160,
   "height": 160,
